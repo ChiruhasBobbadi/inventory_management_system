@@ -4,14 +4,6 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-<!--    <servlet>-->
-<!--        <servlet-name>index</servlet-name>-->
-<!--        <jsp-file>index.jsp</jsp-file>-->
-<!--    </servlet>-->
 
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>index</servlet-name>-->
-<!--        <url-pattern>/inventory_war_exploded</url-pattern>-->
-<!--    </servlet-mapping>-->
 
 </web-app>
