@@ -1,20 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.6.5.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Apr 07, 2017 at 07:36 PM
--- Server version: 10.1.21-MariaDB
--- PHP Version: 7.1.1
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `inventory`
@@ -57,9 +41,9 @@ CREATE TABLE `dealership` (
 --
 
 INSERT INTO `dealership` (`id`, `dealer_name`, `branch`, `dealer_id`, `contact`, `address`, `agent_name`, `agent_contact`, `date`) VALUES
-(7, 'Unilever', 'ctg', 'uni123', '01911893172', 'ctg', 'Tanvir', '01911893172', '2017-04-05'),
-(8, 'Marks', 'ctg', 'mak123', '01911893172', 'ctg', 'tuhin', '01911893172', '2017-04-11'),
-(9, 'Dano Co.', 'ctg', 'dan123', '01911893172', 'ctg', 'nayan', '01911893172', '2017-04-04');
+(7, 'Unilever', 'ctg', 'uni123', '01911893172', 'ctg', 'Chiruhas', '01911893172', '2020-07-07'),
+(8, 'Marks', 'ctg', 'mak123', '01911893172', 'ctg', 'rahul', '01911893172', '2017-07-05'),
+(9, 'Dano Co.', 'ctg', 'dan123', '01911893172', 'ctg', 'chiru', '01911893172', '2017-7-03');
 
 -- --------------------------------------------------------
 
@@ -88,12 +72,12 @@ CREATE TABLE `membership` (
 --
 
 INSERT INTO `membership` (`id`, `member_id`, `name`, `gender`, `password`, `email`, `mobile_no`, `nid`, `pre_address`, `per_address`, `payment`, `category`, `date`) VALUES
-(1, 'sdfa', 'sdfsd', 'Male', 'dfsdf', 'fsf@gmail.com', 'dfsff', 'dsfsd', 'dfsd', 'dsfsd', 'sdfsdf', 'Premium', '2017-04-20'),
-(3, 'asdf', 'sdafdas', 'Female', 'asdf', 'sadfasd', 'ds', 'fsdafsadf', 'sdf', 'sdfas', 'sdf', 'Sliver', '2017-04-23'),
-(4, 'sadf', 'asdf', 'Female', 'sdfas', 'dfasdf', 'sdf', 'asdf', 'asdfasd', 'fasdfasdf', 'sadfasdf', 'Sliver', '2017-04-24'),
-(5, 'sadfas', 'dsafas', 'Female', 'sadf', 'asdfa', 'sadfas', 'asdfa', 'sadf', 'asdfasdf', 'asdfasdf', 'Sliver', '2017-04-16'),
-(6, 'sdfsa', 'asdfasdf', 'Female', 'asdfasdf', 'asdf', 'asdf', 'asdfasdf', 'asdf', 'asdfasdf', 'sdafasdf', 'Premium', '2017-04-17'),
-(7, 'sdfasdf', 'asdfasd', 'Female', 'sdafas', 'asdf', 'sdaf', 'asdfas', 'sdfas', 'sadfasdf', 'sadfas', 'Premium', '2017-04-23');
+(1, 'sdfa', 'sdfsd', 'Male', 'dfsdf', 'fsf@gmail.com', 'dfsff', 'dsfsd', 'dfsd', 'dsfsd', 'sdfsdf', 'Premium', '2020-04-20'),
+(3, 'asdf', 'sdafdas', 'Female', 'asdf', 'sadfasd', 'ds', 'fsdafsadf', 'sdf', 'sdfas', 'sdf', 'Sliver', '2020-04-23'),
+(4, 'sadf', 'asdf', 'Female', 'sdfas', 'dfasdf', 'sdf', 'asdf', 'asdfasd', 'fasdfasdf', 'sadfasdf', 'Sliver', '2020-04-24'),
+(5, 'sadfas', 'dsafas', 'Female', 'sadf', 'asdfa', 'sadfas', 'asdfa', 'sadf', 'asdfasdf', 'asdfasdf', 'Sliver', '2020-04-16'),
+(6, 'sdfsa', 'asdfasdf', 'Female', 'asdfasdf', 'asdf', 'asdf', 'asdfasdf', 'asdf', 'asdfasdf', 'sdafasdf', 'Premium', '2020-04-17'),
+(7, 'sdfasdf', 'asdfasd', 'Female', 'sdafas', 'asdf', 'sdaf', 'asdfas', 'sdfas', 'sadfasdf', 'sadfas', 'Premium', '2020-04-23');
 
 -- --------------------------------------------------------
 
@@ -176,7 +160,7 @@ CREATE TABLE `staff` (
 --
 
 INSERT INTO `staff` (`id`, `staff_id`, `password`, `name`, `gender`, `mobile_no`, `nid`, `pre_address`, `per_address`, `category`, `date`) VALUES
-(2, 'tanvir123', '123456', 'Tanvir Bin Faysal Khan', 'Male', '01911893172', '12547856947852364', 'ctg', 'ctg', 'Manager', '2017-04-04');
+(1, 'chiruhas77', '123456', 'Chiruhas Bobbadi', 'Male', '9133995644', '12547856947852364', 'ctg', 'ctg', 'Manager', '2017-04-04');
 
 -- --------------------------------------------------------
 
